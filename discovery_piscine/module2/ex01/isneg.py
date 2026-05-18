@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 number = int(input())
 
 if number < 0:
@@ -8,4 +8,4 @@ elif number > 0:
     print("This number is positive.")
 
 else:
-    print("This number is both positive and negative. saya akan sentuh awak budak hitam")
+    print("This number is both positive and negative.")
