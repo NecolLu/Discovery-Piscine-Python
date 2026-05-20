@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 original_list = [2, 8, 9, 48, 8, 22, -12, 2]
-modified_list = []
+new_set = set()
 
 for num in original_list:
     if num > 5:
-        modified_list.append(num + 2)  # append() --> adds to the end of the list
+        new_set.add(num + 2)  # add() --> adds item arbitrarily to the set (since sets are unodered)
 
 print(original_list)
-print(modified_list)
+print(new_set)
